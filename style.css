@@ -1,7 +1,41 @@
 body{
   margin: 0;
   padding: 0;
+  font-family: 'Poppins', sans-serif;
 }
 h1{
   font-size: 50px;
+}
+h1 span{
+  color: lime;
+}
+p{
+  font-size: 20px;
+}
+section{
+  display: flex;
+  width: 100%;
+  margin:10px;
+}
+.s1{
+ padding: 20px 100px;
+}
+.s2{
+  padding: 50px;
+  padding-right:50px;
+}
+img{
+  width: 500px;
+}
+  a{
+      text-decoration: none;
+      background: linear-gradient(45deg, lime, red);
+      padding: 10px 40px;
+      border-radius: 5px;
+      color: white;
+      font-weight: 700;
+}
+.f1{
+text-align:center;
+
 }
